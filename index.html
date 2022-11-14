@@ -626,12 +626,31 @@
       </button>
       <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
       <form>
-        <input type="text" class="modal-input" name="user-name" required placeholder="Ім'я*">
-        <input type="tel" class="modal-input" name="user-tel" required placeholder="Телефон*">
-        <input type="mail" class="modal-input" name="user-mail" required placeholder="Пошта*">
-        <input type="text" class="modal-input-coment" name="user-komit" required placeholder="Коментар*">
+        <label>
+          <span class="modal-lable-text">Ім'я</span>
+          <input type="text" class="modal-input" name="user-name" required placeholder="Маша">
+          <span class="modal-lable-text">Телефон</span>
+          <input type="tel" class="modal-input" name="user-tel" required placeholder="+380 (50) 111-11-11">
+          <span class="modal-lable-text">Пошта</span>
+          <input type="mail" class="modal-input" name="user-mail" required placeholder="test@mail.com">
+         
         
-        <button type="submit">Відправити</button>
+         
+        </label>
+
+        <div class="label-textarea">
+          <label for="user-text" class="modal-lable-text">Коментар</label>
+            <textarea name="user-text" id="user-text"  class="modal-comment" placeholder="Введіть текст" ></textarea>
+         
+        </div>
+        <label>
+        
+          <input type="checkbox" name="yes" value="yes">
+          <span class="contract">Погоджуюся з розсилкою та приймаю</span>
+          <a href="" class="contract-link ">Умови договору</a>
+        
+        </label>
+        <button type="submit" class="button-send">Відправити</button>
 
       </form>
     </div>
