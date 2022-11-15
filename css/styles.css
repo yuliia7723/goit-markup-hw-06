@@ -404,6 +404,9 @@ left: 5px;
 
 
 
+
+
+
 .button-send {
 
 
@@ -785,6 +788,54 @@ letter-spacing: 0,03;
 
 .footer-contact {margin-right: 70px;
 }
+
+.modal-footer-text {
+  font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+line-height:calc( 16 /14 );
+text-transform: uppercase;
+color: var(--color-logo-footer);
+display: block;
+margin-bottom: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.modal-input-footer {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color:  #2F303A;
+  resize: none;
+  padding: 15px 16px;
+  
+}
+
+.footer-mail-wind {
+margin-right: 93px;
+justify-content: center;
+align-items: center;
+
+}
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
